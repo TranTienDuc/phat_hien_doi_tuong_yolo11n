@@ -3,12 +3,12 @@
 import io
 from typing import Any
 
-import cv2
-
 from ultralytics import YOLO
 from ultralytics.utils import LOGGER
 from ultralytics.utils.checks import check_requirements
 from ultralytics.utils.downloads import GITHUB_ASSETS_STEMS
+
+import cv2
 
 
 class Inference:
