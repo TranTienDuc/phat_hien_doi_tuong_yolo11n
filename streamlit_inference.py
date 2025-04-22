@@ -1,4 +1,4 @@
-# Vào đây để đăng ký stun server: https://console.twilio.com/?overrideTreatment=post-signup-dev
+# Vào đây để đăng ký stun: https://console.twilio.com/?overrideTreatment=post-signup-dev
 # Ta sẽ được user và password
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
@@ -267,7 +267,6 @@ class Inference:
                 rtc_configuration=rtc_configuration,
                 media_stream_constraints={"video": True, "audio": False},
                 async_processing=True,
-                self.ann_frame.image(video_processor_factory),
             )
             
             # Information about WebRTC
@@ -287,4 +286,3 @@ if __name__ == "__main__":
     model = sys.argv[1] if args > 1 else None  # Assign first argument as the model name if provided
     # Create an instance of the Inference class and run inference
     Inference(model=model).inference()
-    
