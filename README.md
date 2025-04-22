@@ -1,1 +1,3 @@
-# phat_hien_doi_tuong_yolo11n
+# Phat Hien Doi_Tuong Yolo11n
+## Khoa CNTT - Truong DHSPKT TP.HCM
+## Nam hoc 2024-2025
