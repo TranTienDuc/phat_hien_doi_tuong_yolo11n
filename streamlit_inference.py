@@ -123,6 +123,8 @@ class Inference:
                     out.write(g.read())  # Read bytes into file
                 self.vid_file_name = "ultralytics.mp4"
         elif self.source == "webcam":
+            from streamlit_webrtc import webrtc_streamer, VideoProcessorBase, WebRtcMode, RTCConfiguration
+            import av            
             self.vid_file_name = 0  # Use webcam index 0
 
     def configure(self):
