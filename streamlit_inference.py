@@ -267,6 +267,7 @@ class Inference:
                 rtc_configuration=rtc_configuration,
                 media_stream_constraints={"video": True, "audio": False},
                 async_processing=True,
+                self.ann_frame.image(video_processor_factory)
             )
             
             # Information about WebRTC
